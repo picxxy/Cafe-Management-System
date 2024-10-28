@@ -35,11 +35,11 @@ class Order:
 class CafeManagementSystem:
     def __init__(self):
         self.menu = [
-            MenuItem("Espresso", 100, 10),
-            MenuItem("Cappuccino", 150, 8),
+            MenuItem("tea", 100, 10),
+            MenuItem("coffe", 150, 8),
             MenuItem("Latte", 180, 5),
-            MenuItem("Croissant", 80, 15),
-            MenuItem("Muffin", 90, 12),
+            MenuItem("cake", 80, 15),
+            MenuItem("donnut", 90, 12),
         ]
         self.current_order = Order()
 
